@@ -1,0 +1,16 @@
+
+//at first button a function nite hobe, onClick={()=>filterItem('breakfast')}
+
+// //for filtering
+
+    const filterItem=(categItem)=>{
+        const updateItem=data.filter((currElem)=>{
+            return currElem.category===categItem
+          
+        })
+
+        setItems(updateItem)
+
+    }
+
+    //end filtering
